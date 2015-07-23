@@ -2,7 +2,7 @@
 
 import string # using the string.punctuation constant
 import bisect # using the bisect.insort - insert into a sorted list
-import math # using floor and ceil for the median
+import math # using floor for the median
 
 wordCount = {} # global: a dictionary that will keep the ongoing word:count 
 wordsPerLine = [] # global: sorted list - for each next line, we add the word count
@@ -34,7 +34,6 @@ def addWordsRM(words):
 	numOfWords = len(words) # number of words is all we need for this process
 	
 	bisect.insort(wordsPerLine, numOfWords) # sorted insert
-	print "words on this line:", numOfWords
 	
 	# find the middle element or mean of the middle two elements
 	lines = len(wordsPerLine) # number of lines (including the current line) - list size
@@ -107,7 +106,6 @@ def writeRunningMedian(filePath):
 	# loop through and write
 	for median in runningMedian:
 		outFile.write(str(median) + "\n")
-		print str(median)
 
 	outFile.close()
 

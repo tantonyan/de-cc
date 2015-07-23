@@ -14,7 +14,6 @@ for nextItem in allItems:
 	item = constants.inputDir + nextItem # get the path to it
 
 	if not os.path.isdir(item): # only interested in files
-		print "Found an input file: " + item
 		helpers.runForFile(item) # run word count
 
 # finally, write the outputs
