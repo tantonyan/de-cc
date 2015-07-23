@@ -44,7 +44,7 @@ Here is an overview of the project.
   At first the code (in <i>work.py</i>) gets the list of all items (files and directories) under 
   the input directory, we get this as a list. We sort this list next: the running median
   problem asks us to do so. We then loop through the items and when a file is found we pass
-  the path (a relative path to the python scripts - the run.sh first chanages the working dir
+  the path (a relative path to the python scripts - the <i>run.sh</i> first chanages the working dir
   to keep the paths correct) to the top level function of our <i>helpers.py</i> code (`runForFile`),
   which tries to open the file (will skip in case of an error) and if successful, will read
   one line at a time, "clean" it and make a list of words from the resulting string.
