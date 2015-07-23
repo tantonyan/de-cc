@@ -88,7 +88,6 @@ def writeWordCount(filePath):
 	# iterate and write
 	for word in words:
 		outFile.write(word + "\t" + str(wordCount[word]) + "\n")
-		#print word + "\t" + str(wordCount[word])
 
 	outFile.close()
 
