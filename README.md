@@ -5,9 +5,9 @@ This project is intended for the Insight Data Engineering Coding Challenge.
 Here is an overview of the project.
 
 <dl><dt>Language: Python</dt>
-<dd>I chose Python for the implementation due to it's popularity within the data engineers and the ease of use. It was very easy to get up to speed with it and I am happy that I've made this choice.</dd></dl></li>
+<dd>I chose Python for the implementation due to it's popularity within the data engineers and the ease of use. It was very easy to get up to speed with it and I am happy that I've made this choice.</dd></dl>
 
-<li><dl><dt>Dependencies:</dt> 
+<dl><dt>Dependencies:</dt> 
 <dd>This project depends on the following modules -- all of which seem to be part of the standard Python distribution:
 <ul>
  <li>os (and os.path) - get the directory (input) listing and check for the files to work on. </li>
